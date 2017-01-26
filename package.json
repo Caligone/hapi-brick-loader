@@ -1,0 +1,36 @@
+{
+  "name": "hapi-brick-loader",
+  "version": "0.1.0",
+  "description": "The base loader of hapi-brick",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab --verbose --coverage --timeout 1000 --pattern .spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Caligone/hapi-brick-loader.git"
+  },
+  "keywords": [
+    "hapi",
+    "brick",
+    "plugin",
+    "loader"
+  ],
+  "author": "Caligone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Caligone/hapi-brick-loader/issues"
+  },
+  "homepage": "https://github.com/Caligone/hapi-brick-loader",
+  "dependencies": {
+    "glob": "^7.1.0"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "coveralls": "^2.11.15",
+    "lab": "^12.0.0"
+  },
+  "peerDependencies": {
+    "hapi-brick": "^0.2.0"
+  }
+}

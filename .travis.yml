@@ -1,0 +1,11 @@
+language: node_js
+
+node_js:
+  - 6
+
+# whitelisted branches
+branches:
+  only:
+    - master
+
+after_script: ./node_modules/.bin/lab -r lcov | ./node_modules/.bin/coveralls
